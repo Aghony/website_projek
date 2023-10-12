@@ -1,0 +1,51 @@
+@import url('https://fonts.cdnfonts.com/css/agencyfb?styles=17263');
+
+body {
+    display: flex;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    background:url(/img/Rectangle\ 9.png)
+    
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 1px solid #000;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(180deg, #279EFF 0%, #40F8FF 100%);
+}
+
+img {
+    border-radius: 120%;
+    width: 3rem;
+}
+
+.nav-list {
+    margin: 0;
+}
+
+.nav-Home {
+    list-style: none;
+    font-family: sans-serif;
+    color: #FFF;
+    font-style: normal;
+}
+
+.nav-About {
+    list-style: none;
+    font-family: sans-serif;
+    color: #FFF;
+    font-style: normal;
+}
+
+.nav-list {
+    list-style: none;
+    font-family: sans-serif;
+    color: #FFF;
+    font-style: normal;
+}
