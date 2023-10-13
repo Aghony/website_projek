@@ -18,6 +18,9 @@ header{
     left: 0;
 }
 
+img{
+    width: 20%;
+}
 .nav-list{
     text-decoration: none;
     margin: 0 20px;
@@ -36,10 +39,55 @@ header{
 
 .btn-sign-in:hover{
     color: black;
-    background:#D5FFD0;
+    background: #40F8FF;
     border-style: solid;
     border-radius: 3px;
     border-color:  #D5FFD0;
     border-radius: 12px;
     box-shadow: 10px;
 }
+
+.btn-sign-up {
+    text-decoration: none;
+    color: white;
+    background-color:#279EFF;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.btn-sign-up:hover{
+    color: black;
+    background:#40F8FF;
+    border-style: solid;
+    border-radius: 3px;
+    border-color:  #D5FFD0;
+    border-radius: 12px;
+    box-shadow: 10px;
+}
+
+.hero{
+    background-image: url('/./img/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+#content-img{
+    display: flex;
+    gap: 20px;
+}
+
